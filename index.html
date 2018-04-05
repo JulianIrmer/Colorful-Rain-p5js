@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rain powered by p5js</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="settings">
+        <input 
+            type="range" 
+            id="speed" 
+            class="input-slider" 
+            min="5" 
+            max="255" 
+            value="15"
+        >   
+        <input 
+            type="range" 
+            id="rColor" 
+            class="input-slider" 
+            min="0" 
+            max="255" 
+            value="100"
+        >
+        <input 
+            type="range" 
+            id="gColor" 
+            class="input-slider" 
+            min="0" 
+            max="255" 
+            value="100"
+        >
+        <input 
+            type="range" 
+            id="bColor" 
+            class="input-slider" 
+            min="0" 
+            max="255" 
+            value="100"
+        >
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/dot.js"></script>
+</body>
+</html>

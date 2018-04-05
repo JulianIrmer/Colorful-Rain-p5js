@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+#settings{
+    position: absolute;
+    top: 60%;
+    width: 360px;
+    height: 260px;
+    opacity: 0.0;
+    background-color: black;
+    transition: opacity 750ms ease-in-out;
+}
+
+.input-slider{
+    z-index: 999;
+    position: relative;
+    margin-left: 20px;
+    padding: 20px;
+    width: 260px;
+}
+
+#settings:hover{
+    opacity: 0.6;
+}
+
+
+
